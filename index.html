@@ -4,13 +4,77 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101 Template</title>
+    <title>Junya Kuroda</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="home.css" />
+
   </head>
   <body>
-    <h1>Hello, world!!</h1>
-
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <header>
+      
+      <!-- navはBootstrapのナビバーを使用 -->
+      <nav class="navbar navbar-default ">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse">
+    <!-- 右寄せになる部分 ================ -->
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="works.html">Works</a></li>
+              <li><a href="contat.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+    </header>
+    <div class="container">
+      <section class="name">
+        <h1>Junya Kuroda</h1>
+      </section>
+        
+      <div class="picture">
+        <img id="profile_picture" src="junya_profile.JPG" alt="picture">
+      </div>
+      
+      <section class="profile">
+        <h2>自己紹介</h2>
+        <p>愛知県出身の大学生、Junya Kurodaです。現在は京都大学に通っています。</p>
+        <p>２０１６年の春からは東京で就職予定です。</p>
+        <p>暇な時間にプログラミングをしています。ぜひ私のポートフォリオを見てみてください！</p>
+        <p>ご意見等ございましたら、<a href="contact.html">Contact</a> からご連絡お願いします。</p>
+        <p>またこちらが<a href="https://github.com/junyakuroda" target="_blank">私のGitHubアカウントページです。</a></p>
+      </section>
+      <section class="work">
+        <h2>作品一覧（２０１５年度）</h2>
+        <!-- それぞれの作品のリンク先ページは作成していません -->
+        <ul>
+          <li>
+            <a href="messagebord.html" target="_blank" type="button" class="btn btn-primary btn-sm">メッセージボード</a>
+            <p>メッセージを書き残すことのできる掲示板です。</p>
+            <br />
+          </li>
+          <li>
+            <a href="twitterclone.html" target="_blank" type="button" class="btn btn-info btn-sm">Twitterクローン</a>
+            <p>Twitterのクローンサイトです。</p>
+            <br />
+          </li>
+          <li>
+            <a href="monolist.html" target="_blank" type="button" class="btn btn-primary btn-sm">モノリスト</a>
+            <p>Amazonの商品を検索し、自分が持っているもの・欲しい物を共有するサービスです。</p>
+            <br />
+          </li>
+          <li>
+            <a href="originalservice.html" target="_blank" type="button" class="btn btn-info btn-sm">オリジナルサービス</a>
+            <p>私が自分自身で考えたオリジナルサービスです。</p>
+            <br />
+          </li>
+        </ul>
+                  
+      <footer>
+        <p>&copy; 2015 Junya Kuroda</p>
+      </footer>
+    </div>
   </body>
 </html>

@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body h1 {
+    text-align: center;
+}
+
+.picture {
+    float: right;
+    width: 40%;
+}
+
+img {
+    width:100%;
+    height:auto;
+    max-width: 250px;
+    padding: 20px 0 0 0;
+    border-radius: 20%;
+    float:right;
+}
+
+.profile {
+    padding: 20px 0;
+}
+
+footer p {
+    text-align: center;
+    color: gray;
+    padding: 20px 0 0 0;
+}
